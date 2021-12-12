@@ -1,0 +1,25 @@
+i = 1
+c = 0
+while(i<=4):
+    b = 1
+    while(i>1 and b<=c):
+        print("O",end="")
+        b = b+1
+    print("*",end="")
+    j = 3
+    while(j>=i):
+        print("O",end="")
+        j = j-1
+    print("*",end="")
+    g = 3
+    while(g>=i):
+        print("O",end="")
+        g = g-1
+    print("*",end="")
+    z = 1
+    while(i>1 and z<=c):
+        print("O",end="")
+        z = z+1
+    i = i+1
+    print()
+    c = c+1

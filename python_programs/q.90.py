@@ -1,0 +1,30 @@
+#n = 1
+a = 1
+y = 1
+while a<=6:
+    z = 5
+    while z>=a:
+        print("#",end="")
+        z=z-1
+    k = 1
+    while k<=1:
+        print("*",end="")
+        k=k+1
+    if a>1:
+        m = 1
+        while(m<=y):
+            print("#",end="")
+            m = m+1
+        b = 1
+        while b<=1:
+            print("*",end="")
+            b=b+1
+        y = y+2
+    g = 5
+    while(g>=a):
+        print("#",end="")
+        g = g-1
+    #n=n+1
+    print()
+    #i=i+1 
+    a=a+1

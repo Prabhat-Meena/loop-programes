@@ -1,0 +1,24 @@
+a = 5
+i = 0
+while(a>=1):
+    s = 1
+    while(s<=a):
+        print("*",end="")
+        s = s+1
+    e = 1
+    while(e<=i):
+        print(" ",end="")
+        e = e+1
+    b = 1
+    while(b<=i):
+        print(" ",end="")
+        b = b+1
+    j = 1
+    d = 4
+    while(j<=a):
+        print("*",end="")
+        j = j+1
+        d = d-1
+    a = a-1
+    print()
+    i = i+1    

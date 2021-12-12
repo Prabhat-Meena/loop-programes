@@ -1,0 +1,37 @@
+u = 1
+i = 1
+y = 1
+while(u<=3):
+    if y<=2:
+        v = 1
+        while(v<=2):
+            print(" ",end=" ")
+            v = v+1
+        y = y+1
+    if u>1:
+        g = 1
+        while(g<=i):
+            print(g,end=" ")
+            g = g+1
+        i = i+1
+    b = 1
+    while(b<=1):
+        print(b,end=" ")
+        b = b+1
+    u = u+1
+    print()
+r = 1
+w = 1
+k = 3
+while(r<=2):
+    i = 1
+    while(i<=1):
+       print(w,end=" ")
+       i = i+2
+    x = 1
+    while(x<=1):
+        print(k,end=" ")
+        x = x+1
+    r = r+1
+    w = w+2
+    k = k-2
